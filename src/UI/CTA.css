@@ -1,0 +1,35 @@
+.cta {
+    background-color: lightgray;
+    padding: 5rem 0 0 0;
+    margin-bottom: 5rem;
+}
+
+.cta-container {
+    max-width: 84%;
+    margin: 0 auto;
+}
+
+.cta-header {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.cta-text {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.cta-button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1rem;
+}
+
+.yellow-button {
+    background-color: #ed7a65;
+    color: white;
+    border: none;
+    height: 2.5rem;
+}

@@ -1,0 +1,17 @@
+.secion {
+    padding: 4rem;
+}
+
+.section-header {
+    font-size: 4rem;
+    max-width: 80%;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+}
+
+.section-text {
+    font-size: 1.5rem;
+    max-width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+}

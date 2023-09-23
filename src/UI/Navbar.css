@@ -1,0 +1,52 @@
+.hero-navbar {
+    margin: 0 auto;
+    position: relative;
+    top: 2rem;
+    background-color: darkgrey;
+    max-width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 45;
+}
+
+.hero-navbar-item {
+    width: 10%;
+}
+
+.hero-navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-header {
+    max-width: 80%;
+    font-size: 7rem;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 80%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cyan-button {
+    background-color: #9dccc7;
+    color: white;
+    border: none;
+    height: 2.5rem;
+}
+
+.cyan {
+    color: darkcyan;
+}
+
+.yellow-button {
+    background-color: #ed7a65;
+    color: white;
+    border: none;
+    height: 2.5rem;
+}

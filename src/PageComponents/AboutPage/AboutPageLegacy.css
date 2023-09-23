@@ -1,0 +1,30 @@
+.legacy-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    max-width: 80%;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.legacy-image {
+    height: 90vh;
+    max-width: 40%;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.legacy-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legacy-header {
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.legacy-text {
+    font-size: 1.3rem;
+}

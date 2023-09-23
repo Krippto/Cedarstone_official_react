@@ -1,0 +1,48 @@
+.orange {
+    color: #ed7a65;
+}
+
+.discount-container{
+    display: flex;
+    flex-direction: row;
+    margin: 6rem 4rem;
+    padding: 4rem 5rem;
+    background-color: #ed7a65;
+    color: white;
+    gap: 5rem;
+    border-radius: 3px;
+}
+
+.discount-inner-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 65%;
+}
+
+.discount-header{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.discount-text{
+    font-size: 1.3rem;
+    padding-top: 1rem;
+}
+
+.discount-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-button{
+    border: none;
+    background-color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 3px;
+}

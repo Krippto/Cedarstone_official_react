@@ -1,0 +1,44 @@
+.hero {
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-header {
+    max-width: 80%;
+    font-size: 6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero-text {
+    max-width: 80%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.cyan-button {
+    background-color: #9dccc7;
+    color: white;
+    border: none;
+    height: 2.5rem;
+}
+
+.cyan {
+    color: darkcyan;
+}
+
+.yellow-button {
+    background-color: #ed7a65;
+    color: white;
+    border: none;
+    height: 2.5rem;
+}
+
+.contact-hyperlink {
+    color: white;
+    text-decoration: none;
+}

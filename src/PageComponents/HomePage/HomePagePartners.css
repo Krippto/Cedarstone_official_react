@@ -1,0 +1,25 @@
+.partner-header {
+    font-size: 4rem;
+    text-align: center;
+    margin: 8rem auto 3rem auto;
+}
+
+.partner-text {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.partner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5rem auto;
+    max-width: 40%;
+}
+
+.partner-pic {
+    width: 10rem;
+    height: 10rem;
+    background-color: lightgray;
+    border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+.about-section {
+    background-image: url(../../assets/pic5.jpg);
+    height: 80vh;
+    object-fit: cover;
+}
+
+.about-section-inner-container {
+    height: 80vh;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-section-content {
+    background-color: white;
+    padding: 5rem 8rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+}
