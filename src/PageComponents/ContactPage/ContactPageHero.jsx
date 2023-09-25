@@ -1,5 +1,5 @@
 import Navbar from "../../UI/Navbar"
-import "./ContactPagehero.css"
+import "./ContactPageHero.css"
 
 const ContactPageHero = () => {
     return (
