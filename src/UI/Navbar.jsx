@@ -5,16 +5,19 @@ import "./Navbar.css"
 const Navbar = () => {
     return (
         <>
-            <nav className="hero-navbar">
-                <div className="hero-navbar-item">
-                    <img src={logo} alt="CedarStone logo" loading="lazy"
-                        width="110%" />
+            <nav className="navbar-container">
+                <div className="nav-item">
+                    <img src={logo} alt="CedarStone logo" loading="lazy" className="navbar-image"/>
                 </div>
-                <div><Link to="/">Home</Link></div>
-                <div><Link to="/about">About Us</Link></div>
-                <div><Link to="/features">Features</Link></div>
-                <div>Blog</div>
-                <div><button className="yellow-button"><Link to="/contact">Get in Touch</Link></button></div>
+                <div className="inner-navbar-container">
+                    <div><Link to="/" className="nav-list-item">Home</Link></div>
+                    <div><Link to="/about" className="nav-list-item">About Us</Link></div>
+                    <div><Link to="/features" className="nav-list-item">Features</Link></div>
+                    <div className="navbar-blog">Blog</div>
+                </div>
+                <div >
+                    <button className="navbar-button"><Link to="/contact" className="nav-list-item">Get in Touch</Link></button>
+                </div>
             </nav>
         </>
     )

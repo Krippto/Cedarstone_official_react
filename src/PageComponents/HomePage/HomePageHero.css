@@ -1,39 +1,50 @@
-.hero {
+.home-hero {
     height: 100vh;
-    background-color: lightgray;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    background-color: #e6dcd2;
 }
 
-.hero-header {
+.home-hero-container {
+    margin: 5rem auto 0 auto;
     max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.home-hero-header {
     font-size: 6rem;
     font-weight: 500;
     text-align: center;
+    line-height: 1.2;
 }
 
-.hero-text {
-    max-width: 80%;
+.home-hero-text {
     font-size: 2rem;
     text-align: center;
 }
 
-.cyan-button {
+.home-hero-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+
+.home-hero-cyan {
     background-color: #9dccc7;
     color: white;
     border: none;
-    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
 }
 
-.cyan {
-    color: darkcyan;
-}
-
-.yellow-button {
+.home-hero-yellow {
     background-color: #ed7a65;
     color: white;
     border: none;
-    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
 }

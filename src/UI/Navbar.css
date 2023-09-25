@@ -1,52 +1,56 @@
-.hero-navbar {
+.navbar-container {
     margin: 0 auto;
     position: relative;
     top: 2rem;
-    background-color: darkgrey;
+    background-color: #fafaf7;
     max-width: 50%;
     padding: 1rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     z-index: 45;
+    border-radius: 3px;
+    box-shadow:
+        4.6px 4.6px 6.7px rgba(0, 0, 0, 0.04),
+        18.8px 18.6px 22.3px rgba(0, 0, 0, 0.06),
+        100px 99px 100px rgba(0, 0, 0, 0.1);
 }
 
-.hero-navbar-item {
-    width: 10%;
+.navbar-image {
+    width: 100%;
+    object-fit: cover;
 }
 
-.hero-navbar a {
+.nav-item {
+    width: 20%;
+}
+
+.nav-list-item {
     text-decoration: none;
     color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-.hero-header {
-    max-width: 80%;
-    font-size: 7rem;
-    text-align: center;
+.inner-navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
 }
 
-.hero-text {
-    max-width: 80%;
-    font-size: 2rem;
-    text-align: center;
+.navbar-blog {
+    font-weight: 500;
 }
 
-.cyan-button {
-    background-color: #9dccc7;
-    color: white;
-    border: none;
-    height: 2.5rem;
-}
-
-.cyan {
-    color: darkcyan;
-}
-
-.yellow-button {
+.navbar-button {
     background-color: #ed7a65;
     color: white;
     border: none;
-    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
 }
