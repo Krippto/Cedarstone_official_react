@@ -1,35 +1,42 @@
 .cta {
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    background-color: #f0f0f0;
     padding: 5rem 0 0 0;
     margin-bottom: 5rem;
 }
 
 .cta-container {
-    max-width: 84%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
 .cta-header {
     font-size: 2.8rem;
     text-align: center;
+    font-weight: 500;
 }
 
 .cta-text {
     font-size: 1.8rem;
     text-align: center;
-    padding: 4rem 0;
+    padding: 2rem 0 4rem 0;
 }
 
 .cta-button {
     position: relative;
     left: 50%;
-    transform: translateX(-50%);
-    top: 1rem;
-}
-
-.yellow-button {
     background-color: #ed7a65;
     color: white;
     border: none;
-    height: 2.5rem;
+    border-radius: 3px;
+    transform: translateX(-50%);
+    top: 1.2rem;
+    padding: 0.7rem 3rem;
+    font-size: 1.2rem;
 }
+
+/* .yellow-button {
+    background-color: #ed7a65;
+    color: white;
+    border: none;
+} */

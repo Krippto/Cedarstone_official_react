@@ -2,24 +2,29 @@
     font-size: 4rem;
     text-align: center;
     margin: 8rem auto 3rem auto;
+    font-weight: 700;
 }
 
 .partner-text {
     font-size: 1.75rem;
     text-align: center;
+    font-weight: 500;
 }
 
 .partner-container {
+    /* background-color: #f0f0f0; */
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin: 5rem auto;
-    max-width: 40%;
+    gap: 3rem;
+    /* max-width: 40%; */
 }
 
 .partner-pic {
     width: 10rem;
-    height: 10rem;
-    background-color: lightgray;
-    border-radius: 50%;
+    /* height: 10rem; */
+    /* background-color: lightgray; */
+    /* border-radius: 50%; */
 }

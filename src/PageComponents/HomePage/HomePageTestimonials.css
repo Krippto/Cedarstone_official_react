@@ -2,26 +2,33 @@
     margin-top: 5rem;
     font-size: 4rem;
     text-align: center;
+    font-weight: 700;
+}
+
+.header-highlighter {
+    color: #ed7a65;
 }
 
 .testimonial-sub-header {
     padding: 2rem;
     font-size: 1.5rem;
     text-align: center;
+    font-weight: 500;
 }
 
 .testimonial-container {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    max-width: 90%;
     margin: 8rem auto;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .testimonial {
-    background-color: lightgray;
-    border: 2px solid #41485e;
-    padding: 1rem;
+    background-color: #f0f0f0;
+    /* border: 2px solid #41485e; */
+    border-radius: 3px;
+    padding: 4rem 0 2rem 0;
 }
 
 .testimonial-pic {
@@ -29,13 +36,18 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 10%;
-    background-color: darkgray;
+    /* top: 10%; */
+    /* background-image: url(../../assets/pexels-kevin-bidwell-2380794.jpg); */
+    /* object-fit: cover; */
     height: 10rem;
     width: 10rem;
     margin-top: -10rem;
     border-radius: 50%;
     z-index: 9999;
+}
+
+p {
+    margin-bottom: 0;
 }
 
 .testimonial-tick {
@@ -45,22 +57,26 @@
 
 .testimonial-name {
     text-align: center;
-    font-size: 2rem;
-    font-family: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1rem;
 }
 
 .cyan {
-    color: darkcyan;
+    color: #9dccc7;
 }
 
 .center{
     text-align: center;
+    font-weight: 500;
 }
 
-.left{
-    text-align: left;
+.inner-padding {
+    padding: 4rem;
 }
 
-.right{
-    text-align: right;
+.linkedin {
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }

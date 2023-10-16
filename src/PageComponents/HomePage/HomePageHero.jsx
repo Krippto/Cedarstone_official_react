@@ -3,16 +3,16 @@ import "./HomePageHero.css"
 
 const HomePageHero = () => {
     return (
-        <div class="home-hero">
+        <div className="home-hero">
             <Navbar />
             <div className="home-hero-container">
-                <header class="home-hero-header">Unlocking Logistics Excellence</header>
-                <p class="home-hero-text">At Cedarstone, we bring innovation and efficiency to logistics
-                    consultancy, serving businesses across Mauritius, Indian Ocean, and East
+                <header className="home-hero-header">Unlocking<br />Logistics Excellence</header>
+                <p className="home-hero-text">At Cedarstone, we bring innovation and efficiency to logistics
+                    consultancy,<br />serving businesses across Mauritius, Indian Ocean, and East
                     Africa.</p>
-                <div class="home-hero-buttons">
-                    <button class="home-hero-yellow">Explore our Services</button>
-                    <button class="home-hero-cyan">Book a call</button>
+                <div className="home-hero-buttons">
+                    <button className="home-hero-yellow">Explore our Services</button>
+                    <button className="home-hero-cyan">Book a call</button>
                 </div>
             </div>
         </div>

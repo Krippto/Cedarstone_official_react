@@ -1,5 +1,6 @@
 import HomePageHero from "../PageComponents/HomePage/HomePageHero"
 import HomePageSection from "../PageComponents/HomePage/HomePageSection"
+import HomePageCarousel from "../PageComponents/HomePage/HomePageCarousel"
 import HomePageTestimonials from "../PageComponents/HomePage/HomePageTestimonials"
 import CTA from "../UI/CTA"
 import HomePagePartners from "../PageComponents/HomePage/HomePagePartners"
@@ -11,6 +12,7 @@ const HomePage = () => {
         <>
             <HomePageHero />
             <HomePageSection />
+            <HomePageCarousel />
             <HomePageTestimonials />
             <CTA />
             <HomePagePartners />

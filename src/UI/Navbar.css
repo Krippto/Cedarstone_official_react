@@ -2,7 +2,8 @@
     margin: 0 auto;
     position: relative;
     top: 2rem;
-    background-color: #fafaf7;
+    /* background-color: #fafaf7; */
+    background-color: aliceblue;
     max-width: 50%;
     padding: 1rem;
     display: flex;
